@@ -19,9 +19,9 @@ module.exports = function(deployTarget) {
   if (deployTarget === 'production') {
     ENV.build.environment = 'production';
     ENV.git = {
-      repo: 'https://github.com/RedCiudadana/MiGuatemala.git',
+      repo: 'https://github.com/RedCiudadana/Dipudatos.git',
       branch: 'gh-pages',
-      worktreePath: '/tmp/deploy'
+      worktreePath: '/tmp/deploy-dipudatos.org'
     };
   }
 
