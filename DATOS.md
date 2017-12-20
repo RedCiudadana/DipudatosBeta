@@ -33,15 +33,25 @@ con información tal como `id`, `nombreCompleto`, `email`, `telefono`, `noDeAfil
 
 ##### [`comision.json`](static-files/comision.json)
 
-Cuenta con la información actual de las comisiones existentes en el Congreso,
+Cuenta con la información de las comisiones existentes en el Congreso,
 con información tal como: `id`, `nombreCompleto`, `sede`.
 
-##### [`distrito.json`](static-files/comision.json)
+##### [`distrito.json`](static-files/distrito.json)
 
-Cuenta con la información actual de los distritos existentes en el Congreso,
+Cuenta con la información de los distritos existentes en el Congreso,
 con información tal como: `id`, `nombreCompleto`.
 
-##### [`diputado-comision.json`](static-files/comision.json)
+##### [`diputado-comision.json`](static-files/diputado-comision.json)
 
-Cuenta con la información de la relación entre diputados y comisiones. Cuenta con
-los campos: `perfil` (llave) y `comision` (llave)
+Cuenta con la información de la relación entre diputados (perfiles) y comisiones. Cuenta con
+los campos: `perfil` (llave) y `comision` (llave).
+
+##### [`sesion.json`](static-files/sesion.json)
+
+Cuenta con la información de los distritos existentes en el Congreso,
+con información tal como: `id`, `fecha` y `tipo` (ordinaria o extraordinaria).
+
+##### [`asistencia.json`](static-files/asistencia.json)
+
+Cuenta con la información de la relación entre diputados (perfiles) y sesiones. Cuenta con
+los campos: `perfil` (llave) y `sesion` (llave).
