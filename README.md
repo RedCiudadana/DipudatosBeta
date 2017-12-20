@@ -1,3 +1,3 @@
-# MiGuatemala
+# Dipudatos
 
-MiGuatemala es un app/framework construido en [Ember](http://emberjs.com).
+Dipudatos es un app desarrollada sobre [MiGuatemala](https://github.com/RedCiudadana/Miguatemala).

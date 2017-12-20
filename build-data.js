@@ -13,7 +13,7 @@ Tabletop.init({
   callback: function(sheets) {
     Object.keys(sheets).forEach(function(key) {
       var file = targetPath + key + '.json';
-      
+
       jsonfile.spaces = 2;
       jsonfile.writeFileSync(file, sheets[key].elements);
     });
@@ -25,7 +25,7 @@ Tabletop.init({
   callback: function(sheets) {
     Object.keys(sheets).forEach(function(key) {
       var file = targetPath + key + '.json';
-      
+
       jsonfile.spaces = 2;
       jsonfile.writeFileSync(file, sheets[key].elements);
     });

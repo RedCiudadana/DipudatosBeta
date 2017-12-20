@@ -1,18 +1,26 @@
 [
   {
-    "field": "nombre",
-    "label": "Nombre"
+    "field": "cargo",
+    "label": "Cargo:"
   },
   {
-    "field": "direccion",
-    "label": "País"
+    "field": "institucion",
+    "label": "Institución:"
   },
   {
     "field": "profesion",
-    "label": "Indicador 1"
+    "label": "Profesión:"
   },
   {
     "field": "educacion",
-    "label": "Indicador 2"
+    "label": "Educación:"
+  },
+  {
+    "field": "fechaNacimiento",
+    "label": "Fecha de nacimiento:"
+  },
+  {
+    "field": "lugarNacimiento",
+    "label": "Lugar de nacimiento:"
   }
 ]
