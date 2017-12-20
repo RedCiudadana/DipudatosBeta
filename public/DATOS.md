@@ -2,7 +2,7 @@
 
 Los datos que alimentan el sitio provienen de un [Google spreadseet](https://docs.google.com/spreadsheets/d/1haid-rjQqAY62soTzOupd-caDMo--QJBgaWkpimxiM8/pubhtml).
 
-Este spreadhseet se vuelca en archivos JSON estáticos dentro de [`static-files`](public/static-files)
+Este spreadhseet se vuelca en archivos JSON estáticos dentro de [`static-files`](static-files)
 que están a disposición para consumo.
 
 ### Consumo
